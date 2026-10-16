@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'org.h4df.evidence'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'org.h4df.evidence'
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
